@@ -1,11 +1,13 @@
 /* ==UserStyle==
 @name           HackerNews Dark Mode
-@namespace      github.com/openstyles/stylus
-@version        1.0.2
+@namespace      https://github.com/andrecarini/hn-dark-mode/
+@version        1.0.3
 @description    Dark theme for HackerNews.
 @homepageURL    https://github.com/andrecarini/hn-dark-mode
 @updateURL      https://github.com/andrecarini/hn-dark-mode/raw/refs/heads/main/hn-dark-mode.user.css
-@author         andrecarini
+@supportURL     https://github.com/andrecarini/hn-dark-mode/issues
+@author         andrecarini (https://news.ycombinator.com/user?id=andrecarini)
+@license        Unlicense
 ==/UserStyle== */
 
 @-moz-document domain("news.ycombinator.com") {
