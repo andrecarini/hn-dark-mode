@@ -1,0 +1,81 @@
+@media (prefers-color-scheme: dark) {
+  html 	  { background-color: #1a110e; }
+  body    { color: #828282; background-color: #1a110e; }
+  
+  #hnmain { background-color: #231a16; }
+  
+  td 			{ color: #828282; }
+  td b 		{ color: #d0bfb9; }
+
+  .admin td   { color: #d0bfb9; }
+  .subtext td { color: #828282; }
+
+  a:link          { color: #d0bfb9; }
+  .pagetop a:link { color: #542106; }
+  a:visited       { color: #828282; }
+
+  .default   { color: #828282; }
+  .admin     { color: #000000; }
+  .title     { color: #828282; }
+  .subtext   { color: #828282; }
+  .yclinks   { color: #828282; }
+  .pagetop   { color: #542106; }
+  .pagetop b { color: #542106; }
+  .comhead   { color: #828282; }
+
+  .c00, .c00 a:link { color: #d0bfb9; }
+  .c5a, .c5a a:link, .c5a a:visited { color: #a99b96; }
+  .c73, .c73 a:link, .c73 a:visited { color: #857a76; }
+  .c82, .c82 a:link, .c82 a:visited { color: #615956; }
+  .c88, .c88 a:link, .c88 a:visited { color: #56504d; }
+  .c9c, .c9c a:link, .c9c a:visited { color: #484341; }
+  .cae, .cae a:link, .cae a:visited { color: #3b3736; }
+  .cbe, .cbe a:link, .cbe a:visited { color: #342f2e; }
+  .cce, .cce a:link, .cce a:visited { color: #342f2e; }
+  .cdd, .cdd a:link, .cdd a:visited { color: #342f2e; }
+  .ca2 { color: #a30000; }
+
+  .pagetop a:visited { color: #542106;}
+  .topsel a:link, .topsel a:visited { color: #ffffff; }
+
+  .subtext a:link, .subtext a:visited { color: #828282; }
+
+  .comhead a:link, .subtext a:visited { color: #828282; }
+
+  .hnmore a:link, a:visited { color: #828282; }
+  
+  input, textarea, select {
+    background-color: transparent;
+    border-color: #a08d85;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    color: #d0bfb9;
+  }
+  
+  input:focus, input:focus-visible,
+  textarea:focus, textarea:focus-visible,
+  select:focus, select:focus-visible {
+    outline: none;
+    border-color: #ffb596;
+  }
+  
+  select {
+    background-color: #362d2d;
+    border-color: #a08d85;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+  }
+  
+  /* Fixes for 
+    - https://news.ycombinator.com/newsguidelines.html
+    - https://news.ycombinator.com/newsfaq.html
+    - https://news.ycombinator.com/security.html
+  */
+  td[bgcolor="#fafaf0"] { background-color: transparent; }
+  img[src="yc500.gif"]  { background-color: white; padding: 10px; }
+  
+  /* Fixes for hardcoded black text in poll options */
+  font[color="#000000"] { color: #d0bfb9; }
+}
