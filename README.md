@@ -5,3 +5,8 @@ Note: requires your browser to set the `prefers-color-scheme: dark` property. Th
 
 # Installation
 With the [Stylus](https://github.com/openstyles/stylus) extension installed on your browser, just go to the raw `hn-dark-mode.user.css` [URL](https://github.com/andrecarini/hn-dark-mode/raw/refs/heads/main/hn-dark-mode.user.css) and you will be prompted for installing the stylesheet.
+
+# Screenshots
+![Screenshot of the HN home page](/screenshots/home.png)
+
+![Screenshot of the HN thread page](/screenshots/thread.png)
